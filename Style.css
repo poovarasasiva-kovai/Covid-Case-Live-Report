@@ -173,14 +173,14 @@ ul li:hover {
 }
 .clscont2 {
   background-color: #0e5ef7;
-  width: 70%;
+  width: 80%;
   height: 120px;
   border-radius: 4px;
   box-shadow: 8px 10px #b8d0ff;
 }
 .clscont3 {
   background-color: #00bb8c;
-  width: 70%;
+  width: 80%;
   height: 120px;
   border-radius: 4px;
   box-shadow: 8px 10px #abffea;
@@ -208,6 +208,10 @@ ul li:hover {
   font-weight: bold;
   font-size: 18px;
   text-decoration: underline;
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  text-align: center;
 }
 
 #mobilityLabels {
@@ -221,7 +225,7 @@ ul li:hover {
 .clstable {
   margin: 4px;
   width: 95%;
-  box-shadow: 2px 0px 6px #888888;
+  /* box-shadow: 2px 0px 6px #888888; */
   border-radius: 6px;
 }
 
